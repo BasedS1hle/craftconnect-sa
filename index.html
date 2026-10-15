@@ -1,0 +1,378 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="CraftConnect SA — connecting South African township and rural artisans with local and global buyers.">
+    <title>CraftConnect SA — Authentic South African Handmade Crafts</title>
+
+    <link rel="stylesheet" href="css/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+<!-- ================= NAVIGATION ================= -->
+<header>
+    <div class="logo">
+        <h2>CraftConnect SA</h2>
+    </div>
+
+    <nav>
+        <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#shop">Shop</a></li>
+            <li><a href="#artisans">Artisans</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#findings">Findings</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+
+    <div class="buttons">
+        <button class="login">Login</button>
+        <button class="signup">Sign Up</button>
+    </div>
+</header>
+
+<!-- ================= HERO ================= -->
+<section class="hero" id="home">
+    <div class="hero-text">
+        <h1>Discover Authentic Handmade South African Crafts</h1>
+        <p>
+            Support local artisans from rural communities and townships while
+            shopping for unique handmade products delivered anywhere in the world.
+        </p>
+        <button class="shop-btn">Shop Now</button>
+    </div>
+</section>
+
+<!-- ================= SEARCH ================= -->
+<section class="search">
+    <input type="text" id="searchInput" placeholder="Search handmade crafts...">
+</section>
+
+<!-- ================= CATEGORIES ================= -->
+<section class="categories">
+    <h2>Browse Categories</h2>
+    <div class="category-container">
+        <div class="category-card"><h3>Pottery</h3><p>Clay pots, bowls &amp; ceramics</p></div>
+        <div class="category-card"><h3>Beadwork</h3><p>Traditional jewellery &amp; accessories</p></div>
+        <div class="category-card"><h3>Wood Carvings</h3><p>Hand carved African art</p></div>
+        <div class="category-card"><h3>Paintings</h3><p>Original artwork</p></div>
+        <div class="category-card"><h3>Basket Weaving</h3><p>Traditional woven baskets</p></div>
+        <div class="category-card"><h3>Home Decor</h3><p>Decorative handmade items</p></div>
+    </div>
+</section>
+
+<!-- ================= PRODUCTS ================= -->
+<section class="products" id="shop">
+    <h2>Featured Products</h2>
+    <div class="product-grid">
+
+        <div class="product" data-name="Traditional Clay Pot">
+            <img src="https://picsum.photos/seed/pottery/400/300" alt="Traditional Clay Pot">
+            <h3>Traditional Clay Pot</h3>
+            <p class="price">R450</p>
+            <button class="add-cart">Add to Cart</button>
+        </div>
+
+        <div class="product" data-name="Zulu Beaded Necklace">
+            <img src="https://picsum.photos/seed/beads/400/300" alt="Zulu Beaded Necklace">
+            <h3>Zulu Beaded Necklace</h3>
+            <p class="price">R280</p>
+            <button class="add-cart">Add to Cart</button>
+        </div>
+
+        <div class="product" data-name="Handwoven Basket">
+            <img src="https://picsum.photos/seed/basket/400/300" alt="Handwoven Basket">
+            <h3>Handwoven Basket</h3>
+            <p class="price">R390</p>
+            <button class="add-cart">Add to Cart</button>
+        </div>
+
+        <div class="product" data-name="Wooden African Mask">
+            <img src="https://picsum.photos/seed/mask/400/300" alt="Wooden African Mask">
+            <h3>Wooden African Mask</h3>
+            <p class="price">R620</p>
+            <button class="add-cart">Add to Cart</button>
+        </div>
+
+    </div>
+</section>
+
+<!-- ================= ARTISANS ================= -->
+<section class="artisans" id="artisans">
+    <h2>Meet Our Artisans</h2>
+    <div class="artisan-container">
+
+        <div class="artisan-card">
+            <img src="https://picsum.photos/seed/nomsa/300/300" alt="Nomsa Dlamini">
+            <h3>Nomsa Dlamini</h3>
+            <p class="location">KwaZulu-Natal</p>
+            <p class="craft">Traditional Beadwork</p>
+            <p class="story">
+                Nomsa has been beading for 22 years and teaches young women
+                in her community. Each necklace takes three days to make.
+            </p>
+        </div>
+
+        <div class="artisan-card">
+            <img src="https://picsum.photos/seed/sipho/300/300" alt="Sipho Mokoena">
+            <h3>Sipho Mokoena</h3>
+            <p class="location">Limpopo</p>
+            <p class="craft">Pottery</p>
+            <p class="story">
+                Sipho fires clay pots in a traditional pit kiln using
+                techniques passed down through four generations.
+            </p>
+        </div>
+
+        <div class="artisan-card">
+            <img src="https://picsum.photos/seed/thandi/300/300" alt="Thandi Ncube">
+            <h3>Thandi Ncube</h3>
+            <p class="location">Eastern Cape</p>
+            <p class="craft">Basket Weaving</p>
+            <p class="story">
+                Thandi weaves baskets from ilala palm, a craft she learned
+                from her grandmother and now passes on to her daughters.
+            </p>
+        </div>
+
+    </div>
+</section>
+
+<!-- ================= ABOUT / BUSINESS CONCEPT ================= -->
+<section class="about" id="about">
+    <h2>About CraftConnect SA</h2>
+    <p class="about-text">
+        CraftConnect SA is a digital marketplace built to give South African
+        township and rural artisans direct access to local and international
+        buyers. Today, most artisans rely on tourist foot traffic or
+        middlemen who take large cuts, leaving them with little income and
+        almost no online presence. Our platform solves this by providing a
+        professionally hosted e-commerce storefront where artisans can list
+        their handmade goods, tell their stories, and receive payment
+        directly. The site is designed for craft lovers aged 25–55 in South
+        Africa, Europe, and North America who value authentic handmade
+        products and want to support ethical trade.
+    </p>
+</section>
+
+<!-- ================= CUSTOMER PERSONA ================= -->
+<section class="persona">
+    <h2>Who We Serve</h2>
+    <div class="persona-card">
+        <div class="persona-avatar">👩🏽</div>
+        <div class="persona-info">
+            <h3>Sarah Mitchell, 34</h3>
+            <p><strong>Location:</strong> London, United Kingdom</p>
+            <p><strong>Occupation:</strong> Interior designer</p>
+            <p><strong>Challenge:</strong> Wants authentic African décor but finds
+               it hard to verify whether items are genuinely handmade or
+               mass-produced imports.</p>
+            <p><strong>How CraftConnect SA helps:</strong> Every product links to a
+               verified artisan profile with their region, story, and craft
+               method — so Sarah knows exactly who made her purchase and how.</p>
+        </div>
+    </div>
+</section>
+
+<!-- ================= REVENUE MODEL ================= -->
+<section class="revenue">
+    <h2>How We Make Money</h2>
+    <p class="revenue-intro">
+        CraftConnect SA uses a <strong>commission-based e-commerce model</strong>,
+        chosen because it aligns our income with artisan success — we only earn
+        when they do.
+    </p>
+    <div class="revenue-grid">
+        <div class="revenue-card">
+            <h3>15% Commission</h3>
+            <p>On every completed sale. Covers hosting, payment processing, and marketing.</p>
+        </div>
+        <div class="revenue-card">
+            <h3>Featured Listings</h3>
+            <p>Artisans can pay R50/month to appear on the homepage (optional).</p>
+        </div>
+        <div class="revenue-card">
+            <h3>International Shipping Margin</h3>
+            <p>Small markup on cross-border delivery handled by our courier partners.</p>
+        </div>
+    </div>
+    <p class="revenue-reason">
+        <strong>Why commission and not subscriptions?</strong> Most township
+        artisans cannot afford a monthly fee upfront. A commission model removes
+        that barrier and only charges them once they have earned.
+    </p>
+</section>
+
+<!-- ================= WHY US ================= -->
+<section class="why-us">
+    <h2>Why Choose CraftConnect SA?</h2>
+    <div class="why-container">
+        <div><h3>100% Handmade</h3><p>No factory-made products.</p></div>
+        <div><h3>Support Local Communities</h3><p>Every purchase supports South African artisans.</p></div>
+        <div><h3>Worldwide Delivery</h3><p>Ships to customers across the globe.</p></div>
+        <div><h3>Secure Payments</h3><p>Safe and trusted checkout.</p></div>
+    </div>
+</section>
+
+<!-- ================= AI & NO-CODE ================= -->
+<section class="ai-section">
+    <h2>AI &amp; No-Code Tools We Use</h2>
+    <div class="ai-grid">
+        <div class="ai-card">
+            <h3>🤖 AI Product Descriptions</h3>
+            <p>Artisans submit a photo and three keywords; an AI model drafts a
+               product description in English and isiZulu, saving hours per listing.</p>
+        </div>
+        <div class="ai-card">
+            <h3>💬 AI Customer Chatbot</h3>
+            <p>A no-code chatbot answers common questions (shipping, returns,
+               artisan info) 24/7 without hiring support staff.</p>
+        </div>
+        <div class="ai-card">
+            <h3>⚙️ No-Code Automation</h3>
+            <p>Zapier/Make workflows automatically send order confirmations,
+               update stock counts, and email artisans when a sale occurs.</p>
+        </div>
+        <div class="ai-card">
+            <h3>📊 AI Analytics</h3>
+            <p>Google Analytics + AI insights highlight which crafts sell best
+               in which countries, guiding artisan production.</p>
+        </div>
+    </div>
+</section>
+
+<!-- ================= FINDINGS / CASE STUDIES ================= -->
+<section class="findings" id="findings">
+    <h2>Research Findings — 5 Comparable Platforms</h2>
+    <p class="findings-intro">
+        We investigated five existing platforms to learn what works and what
+        gaps remain for South African artisans.
+    </p>
+    <div class="case-grid">
+
+        <div class="case-card">
+            <h3>1. Etsy</h3>
+            <p><strong>What it does well:</strong> Huge global audience, strong search.</p>
+            <p><strong>Gap:</strong> High fees and no artisan verification; buyers cannot confirm authenticity.</p>
+            <p class="source">Source: etsy.com (accessed 2026)</p>
+        </div>
+
+        <div class="case-card">
+            <h3>2. Amazon Handmade</h3>
+            <p><strong>What it does well:</strong> Trust and fast delivery.</p>
+            <p><strong>Gap:</strong> Nearly impossible for small SA artisans to join; no local payment options.</p>
+            <p class="source">Source: amazon.com/handmade (accessed 2026)</p>
+        </div>
+
+        <div class="case-card">
+            <h3>3. Takealot Marketplace</h3>
+            <p><strong>What it does well:</strong> Dominant in SA, trusted locally.</p>
+            <p><strong>Gap:</strong> Focused on mass-produced goods; handmade artisans get lost in the catalogue.</p>
+            <p class="source">Source: takealot.com (accessed 2026)</p>
+        </div>
+
+        <div class="case-card">
+            <h3>4. Africa Imports</h3>
+            <p><strong>What it does well:</strong> Wholesale African crafts to global retailers.</p>
+            <p><strong>Gap:</strong> B2B only; individual artisans cannot sell directly to consumers.</p>
+            <p class="source">Source: africaimports.com (accessed 2026)</p>
+        </div>
+
+        <div class="case-card">
+            <h3>5. HelloPretty (SA)</h3>
+            <p><strong>What it does well:</strong> Curated SA handmade marketplace, strong brand.</p>
+            <p><strong>Gap:</strong> Small artisan base, limited township/rural representation.</p>
+            <p class="source">Source: hellopretty.co.za (accessed 2026)</p>
+        </div>
+
+    </div>
+    <p class="findings-conclusion">
+        <strong>What this told us:</strong> Global platforms don't serve SA artisans well,
+        and local platforms don't prioritise township/rural makers. CraftConnect SA
+        fills that gap by combining a trusted local marketplace with artisan storytelling
+        and AI tools that remove the operational burden from the maker.
+    </p>
+</section>
+
+<!-- ================= ANALYTICS ================= -->
+<section class="analytics">
+    <h2>Projected Analytics</h2>
+    <p class="analytics-intro">
+        Based on our financial model, here is our projected first-year performance.
+        (Charts generated in Microsoft Excel and exported as images.)
+    </p>
+    <div class="analytics-grid">
+        <div class="chart-block">
+            <h3>Monthly Revenue — Three Scenarios</h3>
+            <img src="images/chart-revenue.png" alt="Bar chart: monthly revenue across three order-volume scenarios">
+            <p class="chart-note">
+                Bar chart comparing conservative (5 orders/day), expected (10 orders/day),
+                and optimistic (20 orders/day) monthly revenue at an average order value of R400.
+            </p>
+        </div>
+        <div class="chart-block">
+            <h3>Revenue Split by Category</h3>
+            <img src="images/chart-categories.png" alt="Pie chart: revenue split by craft category">
+            <p class="chart-note">
+                Pie chart showing projected contribution of Pottery, Beadwork, Baskets,
+                Wood Carvings, and Paintings to total revenue.
+            </p>
+        </div>
+    </div>
+</section>
+
+<!-- ================= TESTIMONIALS ================= -->
+<section class="testimonials">
+    <h2>Customer Reviews</h2>
+    <div class="review-container">
+        <div class="review"><p>★★★★★</p><p>"The quality exceeded my expectations!"</p><strong>- Sarah (United Kingdom)</strong></div>
+        <div class="review"><p>★★★★★</p><p>"A beautiful handmade necklace."</p><strong>- David (USA)</strong></div>
+        <div class="review"><p>★★★★★</p><p>"I'll definitely order again."</p><strong>- Li Wei (China)</strong></div>
+    </div>
+</section>
+
+<!-- ================= NEWSLETTER ================= -->
+<section class="newsletter">
+    <h2>Stay Updated</h2>
+    <p>Subscribe to receive new artisan collections.</p>
+    <input type="email" id="emailInput" placeholder="Enter your email">
+    <button id="subscribeBtn">Subscribe</button>
+</section>
+
+<!-- ================= REFERENCES ================= -->
+<section class="references">
+    <h2>References</h2>
+    <ol>
+        <li>Etsy Inc. (2026). <em>Etsy Marketplace</em>. Available at: https://www.etsy.com (Accessed: 2026).</li>
+        <li>Amazon. (2026). <em>Amazon Handmade</em>. Available at: https://www.amazon.com/handmade (Accessed: 2026).</li>
+        <li>Takealot. (2026). <em>Takealot Marketplace</em>. Available at: https://www.takealot.com (Accessed: 2026).</li>
+        <li>Africa Imports. (2026). <em>Wholesale African Crafts</em>. Available at: https://www.africaimports.com (Accessed: 2026).</li>
+        <li>HelloPretty. (2026). <em>South African Handmade Marketplace</em>. Available at: https://www.hellopretty.co.za (Accessed: 2026).</li>
+        <li>Google Fonts. (2026). <em>Poppins typeface</em>. Available at: https://fonts.google.com/specimen/Poppins (Accessed: 2026).</li>
+    </ol>
+</section>
+
+<!-- ================= FOOTER ================= -->
+<footer id="contact">
+    <h3>CraftConnect SA</h3>
+    <p>Connecting South African artisans with the world.</p>
+    <p>Email: support@craftconnectsa.co.za</p>
+    <p>Phone: +27 11 123 4567</p>
+    <p class="security-note">
+        🔒 This site uses HTTPS. Passwords are hashed — never stored in plain text.
+        No real customer data is collected on this prototype.
+    </p>
+    <p class="school-note">
+        JGA 2026 Prototype — Digital Entrepreneurship —
+        [Your Group Name], [Your Lecturer's Surname]
+    </p>
+    <p>© 2026 CraftConnect SA</p>
+</footer>
+
+<script src="js/script.js"></script>
+</body>
+</html>
